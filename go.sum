@@ -1,0 +1,4 @@
+github.com/blldr/freshgoutils v0.0.0-20230325150832-314de8ebb989 h1:MknMvHE2O7GPzfQ3zxpJ61scPwfczxR1mh8Hp6Ph+ls=
+github.com/blldr/freshgoutils v0.0.0-20230325150832-314de8ebb989/go.mod h1:SR6dfrvTpk6etqriJ63g09gRjSvn3Q4/A86IeKVDzvg=
+github.com/blldr/gosolve v0.0.0-20230421192812-66f41aecb40b h1:x1bBsVlDJoFxR1iYW8SQsX25gwtp6z0YiHkbaZIQtEM=
+github.com/blldr/gosolve v0.0.0-20230421192812-66f41aecb40b/go.mod h1:LJqSz/7OZO4EDVDRKXbl2NaZ3OROeDuWv/Ln43FbcOc=
