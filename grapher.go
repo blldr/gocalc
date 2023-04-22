@@ -2,7 +2,7 @@ package gocalc
 
 import (
 	"fmt"
-	// "math"
+	"math"
 	"strings"
 
 	"github.com/blldr/gosolve"
@@ -86,7 +86,7 @@ func (g *Graph) createPointsSlice(eqString string, iStart, iEnd float64) ([]Poin
 	}
 	for i := 0.0; i < float64(xCount); i++ {
 		x := i/float64(g.resolution) - float64(g.width/2)
-		// x = math.Round(x*1000) / 1000
+		x = math.Round(x*1000) / 1000
 		if x < iStart || x > iEnd {
 			continue
 		}
@@ -106,7 +106,7 @@ func (g *Graph) createPointsSlice(eqString string, iStart, iEnd float64) ([]Poin
 	}
 	for i := 0.0; i < float64(xCount); i++ {
 		y := float64(g.width/2) - i/float64(g.resolution)
-		// y = math.Round(y*100) / 100
+		y = math.Round(y*100) / 100
 		var eq string
 		eq = strings.ReplaceAll(eqString, "y", fmt.Sprintf("(%f)", y))
 		var xValues []float64
